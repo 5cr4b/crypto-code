@@ -5,8 +5,8 @@ on:
     branches: [master]
 jobs:
   docker:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     
     steps:
       - name: test 
-        uses: actions/checkouts@v2
+        uses: actions/checkout@v2
