@@ -9,4 +9,4 @@ jobs:
     
     steps:
       - name: test 
-        uses: actions/checkouts@v2
+        uses: actions/checkout@v2
