@@ -1,0 +1,12 @@
+name: test CI
+
+on:
+  push:
+    branches: [master]
+jobs:
+  docker:
+    runs-on: ubuntu
+    
+    steps:
+      - name: test 
+        uses: actions/checkouts@v2
